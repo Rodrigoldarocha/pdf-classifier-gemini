@@ -63,7 +63,7 @@ relatorios/         ← Relatórios finais (Excel, PDF)
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/pdf-classifier-claude.git
+git clone https://github.com/seu-usuario/pdf-classifier-gemini.git
 cd pdf-classifier-claude
 ```
 
