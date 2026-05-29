@@ -1,0 +1,14 @@
+# Etapa 1 — Geração de PDFs fictícios
+reportlab
+
+# Etapa 2 — Extração de texto
+pdfplumber
+pymupdf
+
+# Etapa 3 — Classificação com IA
+google-generativeai
+
+# Etapa 4 — Relatórios
+pandas
+openpyxl
+matplotlib
