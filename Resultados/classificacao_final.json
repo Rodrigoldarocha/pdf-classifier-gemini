@@ -1,0 +1,259 @@
+{
+  "total_documentos": 7,
+  "erros": [],
+  "modelos_tentados": [
+    "gemini-2.0-flash-lite",
+    "gemini-2.0-flash-lite-001",
+    "gemini-2.5-flash-lite",
+    "gemini-2.0-flash",
+    "gemini-2.0-flash-001",
+    "gemini-2.5-flash",
+    "gemini-2.5-pro"
+  ],
+  "gerado_em": "2026-05-29 18:05:14",
+  "documentos": [
+    {
+      "arquivo": "NF_001_ComercioNordeste.pdf",
+      "tipo_original": "nota_fiscal",
+      "classificado_em": "2026-05-29 18:04:51",
+      "status_parse": "ok",
+      "classificacao": {
+        "tipo_documento": "Nota Fiscal Eletrônica",
+        "confianca": "alta",
+        "status": "indefinido",
+        "resumo": "Nota Fiscal Eletrônica emitida pela Tech Solutions Ltda para a Comercio Nordeste SA, referente à venda de equipamentos de informática.",
+        "entidades": {
+          "parte_1": "Tech Solutions Ltda",
+          "parte_2": "Comercio Nordeste SA",
+          "responsavel": null
+        },
+        "valores": {
+          "principal": "R$ 11.643,20",
+          "multa": null,
+          "outros": null
+        },
+        "datas": {
+          "inicio": null,
+          "vencimento": null,
+          "assinatura": null
+        },
+        "indicadores": [
+          "CNPJ: 12.345.678/0001-90",
+          "CNPJ: 98.765.432/0001-11",
+          "Local de emissão: Recife, PE"
+        ],
+        "itens_criticos": []
+      }
+    },
+    {
+      "arquivo": "NF_002_IndustriaPernambucana.pdf",
+      "tipo_original": "nota_fiscal",
+      "classificado_em": "2026-05-29 18:04:55",
+      "status_parse": "ok",
+      "classificacao": {
+        "tipo_documento": "Nota Fiscal",
+        "confianca": "alta",
+        "status": "indefinido",
+        "resumo": "Nota Fiscal emitida pela Tech Solutions Ltda para a Industria Pernambucana Ltda, detalhando a venda de equipamentos de tecnologia com valor total de R$ 11.160,00.",
+        "entidades": {
+          "parte_1": "Tech Solutions Ltda",
+          "parte_2": "Industria Pernambucana Ltda",
+          "responsavel": null
+        },
+        "valores": {
+          "principal": "R$ 11160.00",
+          "multa": null,
+          "outros": null
+        },
+        "datas": {
+          "inicio": null,
+          "vencimento": null,
+          "assinatura": null
+        },
+        "indicadores": [
+          "CNPJ Emitente: 12.345.678/0001-90",
+          "CNPJ Destinatário: 11.222.333/0001-44"
+        ],
+        "itens_criticos": [
+          "Descrição dos itens: Servidor Dell PowerEdge T40, Switch 24 portas TP-Link, Cabo de rede Cat6 (caixa 305m)."
+        ]
+      }
+    },
+    {
+      "arquivo": "OS_047_ConsultoriaAlpha.pdf",
+      "tipo_original": "ordem_servico",
+      "classificado_em": "2026-05-29 18:04:59",
+      "status_parse": "ok",
+      "classificacao": {
+        "tipo_documento": "Ordem de Serviço",
+        "confianca": "alta",
+        "status": "encerrado",
+        "resumo": "Ordem de serviço concluída para a Consultoria Alpha Ltda, envolvendo instalação de rede Wi-Fi, configuração de firewall e treinamento, totalizando R$ 1.800,00.",
+        "entidades": {
+          "parte_1": "Consultoria Alpha Ltda",
+          "parte_2": "Empresa Prestadora de Serviços (implícito)",
+          "responsavel": "Carlos Mendes"
+        },
+        "valores": {
+          "principal": "R$ 1800.00",
+          "multa": null,
+          "outros": null
+        },
+        "datas": {
+          "inicio": null,
+          "vencimento": null,
+          "assinatura": null
+        },
+        "indicadores": [
+          "OS Numero: OS-2025-047",
+          "Status: CONCLUIDA",
+          "CREA: 123456"
+        ],
+        "itens_criticos": [
+          "Serviços realizados detalhados com horas e valor",
+          "Documento gerado automaticamente"
+        ]
+      }
+    },
+    {
+      "arquivo": "OS_048_SupermercadoBomPreco.pdf",
+      "tipo_original": "ordem_servico",
+      "classificado_em": "2026-05-29 18:05:02",
+      "status_parse": "ok",
+      "classificacao": {
+        "tipo_documento": "Ordem de Serviço",
+        "confianca": "alta",
+        "status": "em andamento",
+        "resumo": "Ordem de serviço para manutenção preventiva de servidores e backup/restauração de dados para o Supermercado Bom Preço, com valor total de R$ 1400.00.",
+        "entidades": {
+          "parte_1": "Supermercado Bom Preço",
+          "parte_2": null,
+          "responsavel": "Ana Paula Souza"
+        },
+        "valores": {
+          "principal": "R$ 1400.00",
+          "multa": null,
+          "outros": null
+        },
+        "datas": {
+          "inicio": null,
+          "vencimento": null,
+          "assinatura": null
+        },
+        "indicadores": [
+          "Manutenção preventiva servidores",
+          "Backup e restauração de dados"
+        ],
+        "itens_criticos": [
+          "Documento gerado automaticamente — dados fictícios para fins de demonstração."
+        ]
+      }
+    },
+    {
+      "arquivo": "OS_049_ClinicaSaudeTotal.pdf",
+      "tipo_original": "ordem_servico",
+      "classificado_em": "2026-05-29 18:05:06",
+      "status_parse": "ok",
+      "classificacao": {
+        "tipo_documento": "Ordem de Serviço",
+        "confianca": "alta",
+        "status": "pendente",
+        "resumo": "Ordem de serviço para instalação de software hospitalar, migração de banco de dados e suporte pós-implantação para a Clínica Saúde Total, aguardando aprovação.",
+        "entidades": {
+          "parte_1": "Clinica Saude Total",
+          "parte_2": "Roberto Lima",
+          "responsavel": "Roberto Lima"
+        },
+        "valores": {
+          "principal": "R$ 4800.00",
+          "multa": null,
+          "outros": null
+        },
+        "datas": {
+          "inicio": null,
+          "vencimento": null,
+          "assinatura": null
+        },
+        "indicadores": [
+          "OS Numero: OS-2025-049",
+          "Status: AGUARDANDO APROVACAO",
+          "CREA: 789012"
+        ],
+        "itens_criticos": [
+          "Aguardando aprovação",
+          "Serviços detalhados com horas e valores"
+        ]
+      }
+    },
+    {
+      "arquivo": "Planilha_Estoque_Maio2025.pdf",
+      "tipo_original": "planilha_estoque",
+      "classificado_em": "2026-05-29 18:05:10",
+      "status_parse": "ok",
+      "classificacao": {
+        "tipo_documento": "Controle de Estoque",
+        "confianca": "alta",
+        "status": "ativo",
+        "resumo": "Relatório de controle de estoque da Tech Solutions Ltda para maio de 2025, indicando itens com necessidade de reposição.",
+        "entidades": {
+          "parte_1": "Tech Solutions Ltda",
+          "parte_2": null,
+          "responsavel": null
+        },
+        "valores": {
+          "principal": null,
+          "multa": null,
+          "outros": null
+        },
+        "datas": {
+          "inicio": null,
+          "vencimento": null,
+          "assinatura": null
+        },
+        "indicadores": [
+          "Estoque",
+          "Reposição"
+        ],
+        "itens_criticos": [
+          "Monitor LG 24\" Full HD (REPOR)",
+          "Teclado Mecanico HyperX (REPOR)",
+          "Servidor Dell PowerEdge T40 (REPOR)"
+        ]
+      }
+    },
+    {
+      "arquivo": "Relatorio_Abril_2025.pdf",
+      "tipo_original": "relatorio",
+      "classificado_em": "2026-05-29 18:05:13",
+      "status_parse": "ok",
+      "classificacao": {
+        "tipo_documento": "Relatório Operacional",
+        "confianca": "alta",
+        "status": "indefinido",
+        "resumo": "Relatório operacional referente a Abril de 2025 para a Tech Solutions Ltda, apresentando indicadores de notas fiscais emitidas, ordens de serviço e faturamento.",
+        "entidades": {
+          "parte_1": "Tech Solutions Ltda",
+          "parte_2": null,
+          "responsavel": null
+        },
+        "valores": {
+          "principal": "R$ 187.430,50",
+          "multa": null,
+          "outros": "Ticket médio O.S.: R$ 1.850,00"
+        },
+        "datas": {
+          "inicio": null,
+          "vencimento": null,
+          "assinatura": null
+        },
+        "indicadores": [
+          "Total de Notas Fiscais emitidas: 28",
+          "Ordens de Serviço abertas: 42",
+          "Ordens de Serviço concluidas: 38",
+          "Clientes atendidos: 19"
+        ],
+        "itens_criticos": []
+      }
+    }
+  ]
+}
