@@ -35,7 +35,7 @@ Os dados utilizados são **100% fictícios**, criados no notebook 01 para simula
 ## 📂 Estrutura do projeto
 
 ```
-pdf-classifier-claude/
+pdf-classifier-gemini/
 ├── notebooks/
 │   ├── 01_pdficticios_coleta_e_organizacao.ipynb
 │   ├── 02_extracao_de_texto.ipynb
@@ -63,8 +63,8 @@ relatorios/         ← Relatórios finais (Excel, PDF)
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/pdf-classifier-gemini.git
-cd pdf-classifier-claude
+git clone https://github.com/Rodrigoldarocha/pdf-classifier-gemini.git
+cd pdf-classifier-gemini
 ```
 
 ### 2. Instale as dependências
@@ -162,6 +162,12 @@ gemini-2.5-pro          → reserva (última opção)
 | `pandas` | 4 | Estruturação e análise dos dados |
 | `openpyxl` | 4 | Exportação para Excel |
 | `matplotlib` | 4 | Geração dos gráficos |
+
+---
+
+## 👨‍💻 Autor
+
+**Rodrigo Rocha** — [GitHub](https://github.com/Rodrigoldarocha) · [LinkedIn](https://www.linkedin.com/in/rodrigo-rocha-19249170/)
 
 ---
 
